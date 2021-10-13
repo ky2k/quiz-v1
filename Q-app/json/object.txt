@@ -1,0 +1,47 @@
+[
+  
+
+{
+	question:'how are you',
+	answers:{
+	  a:'',
+	  b:'',
+	  c:'',
+	  d:'',
+	},
+	correctAnswer:'b',
+},
+
+{
+	question:'ddddddddddddddddd',
+	answers:{
+	  a:'dddd',
+	  b:'ddd',
+	  c:'ddddddddddd',
+	  d:'ddddd',
+	},
+	correctAnswer:'',
+},
+
+{
+	question:'',
+	answers:{
+	  a:'ddddddddd',
+	  b:'dddddddddddddd',
+	  c:'dddddddddddd',
+	  d:'',
+	},
+	correctAnswer:'a',
+},
+
+{
+	question:'dddddddddddwww',
+	answers:{
+	  a:'ww',
+	  b:'wwwww',
+	  c:'wwwww',
+	  d:'yyyyyy',
+	},
+	correctAnswer:'d',
+}
+]

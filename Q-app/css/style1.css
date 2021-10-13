@@ -1,0 +1,217 @@
+@charset "UTF-8";
+.border_2px {
+  border: 2px solid black;
+  border-radius: 9px;
+}
+
+.border_2px_b {
+  border: 1.7px solid #02e1ff;
+  border-radius: 9px;
+}
+
+.border_2px_gy {
+  border: 2px solid #6e6e6e;
+  border-radius: 9px;
+}
+
+.border_2px_wht {
+  border: 1.7px solid #FFFFFF;
+  border-radius: 9px;
+  background-color: #C00000;
+  color: #FFFFFF;
+}
+
+.border_2px_wht_b {
+  border: 1.7px solid #FFFFFF;
+  border-radius: 9px;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.border_2px_bg_b {
+  border: 1.7px solid #000000;
+  border-radius: 9px;
+  background-color: #007BFF;
+  color: #FFFFFF;
+}
+
+.q_qty {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.q_qty span {
+  background-color: #FF0000;
+  width: 40px;
+  height: 20px;
+  margin-left: 5px;
+  padding: 3px 9px;
+  border-radius: 9px;
+}
+
+.b_2px_bg_b {
+  border: 2px solid #007BFF;
+  border-radius: 9px;
+  background-color: #007BFF;
+  color: #FFFFFF;
+}
+
+.red_bg_wht {
+  background-color: #FE0000;
+  color: white;
+  border-radius: 10px;
+}
+
+.instructions {
+  padding: 10px 10px;
+}
+.instructions ul {
+  list-style: none;
+  list-style-image: url(../icons/red_tick.svg);
+}
+.instructions ul li {
+  padding: 5px;
+  color: red;
+}
+
+.select_q input[type=radio] {
+  appearance: none;
+  border: 1px solid #d3d3d3;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px #595959 solid;
+  outline: yellow;
+  margin: 0;
+  background-color: white;
+}
+.select_q input[type=radio]:checked {
+  appearance: none;
+  outline: none;
+  padding: 0;
+  content: none;
+  border: none;
+  border: 2px #595959 solid;
+  background-color: black;
+}
+
+.qa input[type=radio] {
+  appearance: none;
+  border: 1px solid #d3d3d3;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  content: none;
+  outline: none;
+  margin: 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-color: #938F8F;
+  background-color: #AFABAB;
+}
+.qa input[type=radio]:checked {
+  appearance: none;
+  outline: none;
+  content: none;
+  border: none;
+  border: #4D4A4A px solid;
+  background-color: black;
+}
+.qa input[type=radio]:checked::before {
+  position: absolute;
+  color: white !important;
+  content: " ✓ " !important;
+  border: 1px solid #d3d3d3;
+  font-size: 13px;
+  border-color: transparent;
+}
+
+.container__main1 {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  border: 2px Solid black;
+  padding: 10px;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.h2 {
+  text-align: center;
+}
+.h2 h2 {
+  padding: 10px;
+}
+
+.timer_ques {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.timer_ques .timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 90px;
+}
+.timer_ques .get_cert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 140px;
+}
+.timer_ques .q_qty {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+}
+.timer_ques .q_qty p {
+  margin-left: 5px;
+}
+
+.qa {
+  background-color: white;
+  margin-top: 9px;
+}
+.qa .title {
+  padding: 3px;
+  margin: 5px;
+}
+.qa .opt {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+.qa .opt input {
+  margin: 10px;
+}
+
+.sel_que {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 5px;
+}
+.sel_que button {
+  height: 35px;
+  width: 100px;
+}
+
+.sign_wr {
+  margin: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+}
+.sign_wr .sign_k {
+  padding: 0 5px;
+}
+
+.main1_bg {
+  background-color: #FFC000;
+}
+
+/*# sourceMappingURL=style1.css.map */

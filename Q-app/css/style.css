@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container__main {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  border: 2px Solid black;
+  padding: 20px;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.q_preference {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.instructions {
+  padding: 10px 10px;
+}
+.instructions ul {
+  list-style: none;
+  list-style-image: url(../icons/red_tick.svg);
+}
+.instructions ul li {
+  padding: 5px;
+  color: red;
+}
+
+.border_2px {
+  border: 2px solid black;
+  border-radius: 9px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.switch {
+  display: flex;
+  width: 45px;
+  border-radius: 9999px;
+  height: fit-content;
+  background-color: white;
+  border: 2px solid black;
+}
+.switch input {
+  display: none;
+}
+
+.btn_switch {
+  border-radius: 9999px;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
+
+.switch_wr {
+  display: flex;
+  justify-items: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.submit_q{
+  margin-top: 20px;
+  border: black 2px solid;
+  border-radius: 4px;
+  text-align: center;
+  height: 35px;
+  width: 150px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  background-color: #74e700;
+}
+
+.s_on {
+  justify-content: flex-end;
+}
+
+.s_off {
+  justify-content: flex-start;
+}
+
+.b_on {
+  background-color: black;
+}
+
+.b_off {
+  background-color: white;
+}
+
+#up_clk {
+  cursor: pointer;
+}
+
+#d_clk {
+  cursor: pointer;
+}
+
+.time_set_wr {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time_btn_wr {
+  margin-top: 10px;
+  height: 35px;
+  width: 150px;
+  border-radius: 4px;
+  border-color: black;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.timer_txt {
+  font-size: 16px;
+  flex-basis: 150px;
+}
+
+.step_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.step_btn .u_btn {
+  border-color: transparent;
+  font-size: 10px;
+  width: 10px;
+}
+.step_btn .d_btn {
+  border-color: transparent;
+  font-size: 10px;
+  width: 10px;
+}
+
+.set_time {
+  color: white;
+  border: black 2px solid;
+  background-color: #00ff0d;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 18px;
+  height: 35px;
+  width: 150px;
+  margin: 10px 0 5px 0;
+}
+
+.test_part {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.user_wr {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+.user_wr input {
+  width: 40%;
+  margin-left: 5px;
+  border-color: transparent;
+  outline: none;
+  border: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.timer_wr {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.timer_wr .clock_icon {
+  display: flex;
+  align-items: center;
+}
+.timer_wr .clock_icon p {
+  margin-left: 10px;
+}
+
+.q_type {
+  margin-top: 20px;
+  padding: 10px;
+}
+.q_type .select_q {
+  margin-left: 20px;
+}
+
+.timer_txt input {
+  width: 20px;
+  font-weight: bold;
+  border: 0;
+  border-color: transparent;
+  outline: none;
+  border-bottom: black 1px solid;
+}
+
+/*# sourceMappingURL=style.css.map */
